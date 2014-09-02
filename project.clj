@@ -1,3 +1,4 @@
+
 (defproject AndroidRSSReaderTutorial/AndroidRSSReaderTutorial "0.0.1-SNAPSHOT"
   :description "FIXME: Android project description"
   :url "http://example.com/FIXME"
@@ -12,7 +13,11 @@
   :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
 
   :dependencies [[org.clojure-android/clojure "1.6.0-RC1" :use-resources true]
-                 [neko/neko "3.0.1"]]
+                 [neko/neko "3.0.1"]
+                 [adamwynne/feedparser-clj "0.5.2"]]
+  
+  :plugins [[cider/cider-nrepl "0.7.0"]]
+
   :profiles {:dev {:dependencies [[org.clojure/tools.nrepl "0.2.3"]
                                   [compliment "0.0.3"]]
                    :android {:aot :all-with-unused}}
@@ -34,7 +39,7 @@
             ;; Uncomment this if dexer fails with
             ;; OutOfMemoryException. Set the value according to your
             ;; available RAM.
-            ;; :dex-opts ["-JXmx4096M"]
+            :dex-opts ["-JXmx4096M"]
 
             ;; If previous option didn't work, uncomment this as well.
             ;; :force-dex-optimize true

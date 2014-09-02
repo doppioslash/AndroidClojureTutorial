@@ -1,5 +1,5 @@
 (ns com.doppioslash.androidtut.main
-  (:use [neko.activity :only [defactivity set-content-view!]]
+  (:use [neko.activity]
         [neko.threading :only [on-ui]]
         [neko.ui :only [make-ui]]))
 
