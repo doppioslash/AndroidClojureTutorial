@@ -1,5 +1,5 @@
 
-(defproject AndroidRSSReaderTutorial/AndroidRSSReaderTutorial "0.0.1-SNAPSHOT"
+(defproject AndroiClojureTutorial/AndroidClojureTutorial "0.0.1-SNAPSHOT"
   :description "FIXME: Android project description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
