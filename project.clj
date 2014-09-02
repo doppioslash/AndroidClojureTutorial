@@ -13,8 +13,7 @@
   :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
 
   :dependencies [[org.clojure-android/clojure "1.6.0-RC1" :use-resources true]
-                 [neko/neko "3.0.1"]
-                 [adamwynne/feedparser-clj "0.5.2"]]
+                 [neko/neko "3.0.1"]]
   
   :plugins [[cider/cider-nrepl "0.7.0"]]
 
